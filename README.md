@@ -1,16 +1,76 @@
-# React + Vite
+# React User Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación desarrollada con **React** para practicar el manejo de formularios, validaciones, persistencia de datos y autenticación básica utilizando **Local Storage**.
 
-Currently, two official plugins are available:
+## 🚀 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Registro de usuarios.
+* Validación de formularios con **Zod**.
+* Edición de usuarios.
+* Eliminación de usuarios.
+* Persistencia de usuarios mediante **Local Storage**.
+* Inicio y cierre de sesión.
+* Persistencia de la sesión al recargar la página.
+* Componentes reutilizables y código modular.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologías
 
-## Expanding the ESLint configuration
+* React
+* JavaScript (ES6+)
+* Vite
+* Tailwind CSS
+* Zod
+* Local Storage API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Estructura del proyecto
+
+```
+src
+│
+├── components
+│   ├── Formulario.jsx
+│   ├── ListaUsuarios.jsx
+│   ├── UsuarioCard.jsx
+│   └── Login.jsx
+│
+├── schema
+│   ├── form.js
+│   └── login.js
+│
+├── utils
+│   └── localStorage.js
+│
+└── App.jsx
+```
+
+---
+
+## 📚 Conceptos practicados
+
+Durante el desarrollo de este proyecto se trabajó con:
+
+* Componentes reutilizables.
+* Props.
+* useState.
+* Manejo de eventos.
+* Formularios controlados.
+* Validación con Zod.
+* Renderizado condicional.
+* Renderizado de listas.
+* CRUD (Create, Read, Update, Delete).
+* Persistencia con Local Storage.
+* Inicio y cierre de sesión.
+* Persistencia de la autenticación.
+* Organización del proyecto por responsabilidades.
+
+---
+
+## 🎯 Objetivo
+
+El objetivo principal de este proyecto fue practicar conceptos fundamentales de React construyendo una pequeña aplicación de gestión de usuarios con autenticación básica y persistencia de datos.
+
+Este proyecto fue realizado con fines educativos y de práctica.
